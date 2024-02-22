@@ -47,3 +47,35 @@ Notes for FridayProject2.py
  
 14. Call the generate_powerball_numbers function if the script is the main program.
     
+
+
+
+Notes For Fridayproject3.py
+
+1. `quiz_questions = { ... }`: Defines a dictionary containing quiz questions as keys and correct answers as values.
+
+2. `def quiz():`: Defines a function named 'quiz' to encapsulate the quiz logic.
+
+3. `score = 0`: Initializes a variable to keep track of the user's score.
+
+4. `total_questions = len(quiz_questions)`: Calculates the total number of questions in the quiz.
+
+5. `for question, correct_answer in quiz_questions.items():`: Iterates through each question and correct answer in the quiz dictionary.
+
+6. `user_answer = input(question + "\nYour answer: ")`: Asks the user for input, displaying the current question.
+
+7. `if user_answer.lower() == correct_answer.lower():`: Checks if the user's answer (case-insensitive) matches the correct answer.
+
+8. `print("Correct!\n")`: Prints a message indicating that the answer is correct.
+
+9. `score += 1`: Increments the user's score.
+
+10. `else:`: Handles the case when the user's answer is incorrect.
+
+11. `print(f"Wrong! The correct answer is: {correct_answer}\n")`: Prints a message indicating that the answer is wrong and displays the correct answer.
+
+12. `print(f"Quiz complete! You got {score} out of {total_questions} questions correct.")`: Displays the user's final score after completing the quiz.
+
+13. `if __name__ == "__main__":`: Checks if the script is executed as the main program.
+
+14. `quiz()`: Calls the 'quiz' function to start the quiz when the script is run.
