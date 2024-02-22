@@ -27,7 +27,7 @@ Notes for FridayProject2.py
    
 4. Start an infinite loop to repeatedly ask the user for input.
   
-5. Prompt the user to enter 'yes' or 'no', convert input to lowercase, and store it in `user_input`.
+5. Prompt the user to enter 'yes' or 'no', convert input to lowercase, and store it in user_input.
    
 6. Check if the user entered 'no'.
    
