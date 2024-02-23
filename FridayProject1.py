@@ -7,6 +7,7 @@ def madlib():
     # Get user input for placeholders
     adjective = input("Enter an adjective: ")
     large_object_plural = input("Enter a plural form of a large object: ")
+    large_object = input("Enter a large object: ")
     body_part = input("Enter a body part: ")
     restaurant = input("Enter a restaurant name: ")
     food = input("Enter a food item: ")
@@ -19,6 +20,7 @@ def madlib():
         body_part=body_part,
         restaurant=restaurant,
         food=food,
+        large_object=large_object,
         another_food=another_food
     )
 
